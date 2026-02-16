@@ -1,16 +1,12 @@
-# flutter_application_1
+# The Peak VL Climber - Pomodoro App
 
-A new Flutter project.
+An interactive Pomodoro application designed to help users reach their **"Flow State"**. Built with Flutter, this project demonstrates advanced UI responsiveness and mathematical animation logic.
 
-## Getting Started
+## Key Technical Insights
+To meet the high standards of performance and accessibility, I implemented:
+- **Percentage-based Positioning:** Moved away from fixed pixel values to a 0.0-1.0 ratio system, ensuring the climber stays on track across all screen sizes (Mobile/Web).
+- **Dynamic Animation Logic:** Utilized `Timer.periodic` and trigonometry for the "Congratulations" UI effects.
+- **Analytical Problem Solving:** Structured data-driven movement paths to synchronize perfectly with a 25-minute countdown.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Live Demo
+https://vihgieng-create.github.io/The-Peak-VL-Climber-Pomodoro/
